@@ -53,6 +53,7 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSHD)).BeginInit();
@@ -221,8 +222,10 @@
             this.dgvDSHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDSHD.Location = new System.Drawing.Point(6, 43);
             this.dgvDSHD.Name = "dgvDSHD";
+            this.dgvDSHD.ReadOnly = true;
             this.dgvDSHD.RowHeadersWidth = 82;
             this.dgvDSHD.RowTemplate.Height = 33;
+            this.dgvDSHD.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDSHD.Size = new System.Drawing.Size(1430, 450);
             this.dgvDSHD.TabIndex = 0;
             this.dgvDSHD.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDSHD_CellContentClick);
@@ -233,7 +236,7 @@
             this.txtTimKiem.Location = new System.Drawing.Point(58, 59);
             this.txtTimKiem.Multiline = true;
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(1431, 64);
+            this.txtTimKiem.Size = new System.Drawing.Size(1181, 64);
             this.txtTimKiem.TabIndex = 30;
             this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
@@ -311,6 +314,17 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "Tìm kiếm";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(1263, 59);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(226, 64);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Xuất hoá đơn";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // QLHD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -318,6 +332,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1501, 1063);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
@@ -325,6 +340,7 @@
             this.Name = "QLHD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QLHD";
+            this.Load += new System.EventHandler(this.QLHD_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -363,5 +379,6 @@
         private System.Windows.Forms.TextBox txtMaKH;
         private System.Windows.Forms.TextBox txtMaNV;
         private System.Windows.Forms.TextBox txtMaSP;
+        private System.Windows.Forms.Button button1;
     }
 }

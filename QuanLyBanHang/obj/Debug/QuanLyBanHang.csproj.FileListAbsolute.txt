@@ -132,3 +132,4 @@ D:\EPU\Nam 3 - Ky 1\Công Nghệ Phần Mềm\Project\QuanLyBanHang\QuanLyBanHan
 D:\EPU\Nam 3 - Ky 1\Công Nghệ Phần Mềm\Project\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.CopyComplete
 D:\EPU\Nam 3 - Ky 1\Công Nghệ Phần Mềm\Project\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
 D:\EPU\Nam 3 - Ky 1\Công Nghệ Phần Mềm\Project\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+D:\EPU\Nam 3 - Ky 1\Công Nghệ Phần Mềm\Project\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.ResolveComReference.cache
